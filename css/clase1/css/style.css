@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+/* navegacion */
+
+
+
+nav{
+    background-color: darkolivegreen;
+}
+
+
+/* main */
+main{
+    background-color: darkorange;
+    color: cyan;
+}
+
+h1{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: cadetblue;
+}
+
+.rojo{
+    background-color: crimson;
+    color: rgb(10, 13, 221);
+}
+
+
+.rojo{
+    background-color: rgb(222, 238, 2);
+    color: rgb(84, 10, 221);
+}
+
+#azul{
+    background-color: darkblue;
+}
+
+
+/* segunda section */
+
+h2{
+    color: darkgray;
+    background-color: #fff;
+    font-size: 30px;
+    font-weight:100;
+    font-family: 'The Nautigal';
+    font-style: italic;
+}
+
