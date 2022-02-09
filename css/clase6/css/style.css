@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+    height: 400px;
+    background-color: rgb(177, 129, 129);
+    /* background-image: url(../img/caress.jpg); */
+    background-image: linear-gradient(to right,blueviolet, deeppink, yellow);
+    background-position: center;
+    background-size: contain;
+
+    background-color: #e5e5f7;
+    opacity: 0.8;
+}
+
+
+/* @media screen and (max-width:920px){
+    section{
+        flex-direction: column;
+    }
+} */

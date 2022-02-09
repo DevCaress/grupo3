@@ -1,0 +1,65 @@
+body{
+    background-color: rosybrown;
+}
+
+h1{
+    font-variant-caps: small-caps;
+    font-variant-ligatures: normal;
+    /* font-variant-alternates: normal; */
+
+    text-align: center;
+
+}
+
+a{
+    text-decoration: underline double red;
+
+    /* text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+    text-decoration-style: double;
+    text-decoration-color: blueviolet; */
+}
+
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 3px 0px 8px black;
+    text-indent: 30px;
+}
+
+
+
+
+
+div{
+    height: 50px;
+}
+
+#name1{background-color: black;}
+#name2{background-color: white;}
+#name3{background-color: red;}
+#name4{background-color:lime}
+#name5{background-color: blue;}
+
+#rgb1{background-color: rgb(0,0,0);}
+#rgb2{background-color: rgb(255,255,255);}
+#rgb3{background-color: rgb(255,0,0);}
+#rgb4{background-color: rgb(0,255,0);}
+#rgb5{background-color: rgb(0,0,255);}
+
+#hex1{background-color: #000;}
+#hex2{background-color: #ffffff;}
+#hex3{background-color: #ff0000;}
+#hex4{background-color: #00ff00;}
+#hex5{background-color: #0000ff;}
+
+#hsl1{background-color: hsl(0,0%,0%);}
+#hsl2{background-color: hsl(0,0%,100%);}
+#hsl3{background-color: hsl(0,100%,30%);}
+#hsl4{background-color: hsl(120,100%,30%);}
+#hsl5{background-color: hsl(240,100%,30%);}
+
+#trs1{background-color: rgba(255,0,0,0.9);}
+#trs2{background-color: hsla(110,100%,50%,0.7);}
+#trs3{background-color: #00000077;}

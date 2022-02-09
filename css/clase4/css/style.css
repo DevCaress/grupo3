@@ -1,0 +1,17 @@
+h1{
+    border: 2px solid blueviolet;
+    /*border-top: 1px solid deeppink; */
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px 10px 50px 30px;
+    padding:20px 10px 50px 30px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+img{
+    width: 50%;
+    border-radius: 50% 10px 20px 40px;
+    margin: 20px auto;
+    display: block;
+}

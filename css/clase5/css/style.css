@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body{
+    padding: 1rem;
+}
+
+nav{
+    background-color: darksalmon;
+}
+nav li{
+    display: inline-block;
+    padding: 10px;
+    background-color: darkseagreen;
+}
+
+nav a{
+    color: #fff;
+}
+
+h1{    
+    width: 200px;
+    border: 5px dotted darkmagenta;
+    padding: 10px;
+    background-color: rgb(255, 0, 200);
+}
+
+p{
+    width: 50%;
+}
