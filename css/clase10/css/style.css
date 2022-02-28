@@ -1,0 +1,78 @@
+:root{
+    --primary : rgb(20, 75, 255);
+    --font: serif;
+    --f-weight: normal;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+section{
+    background-color: rgb(81, 209, 42);
+    margin: 1rem 0;
+    /* font-weight: bold; */
+}
+
+
+section > div{
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem;
+    transition: .5s;
+}
+
+section div:hover{
+    transform: scale(.5);
+    transform: skewX(45deg);
+    transform: rotate(90deg);
+
+
+    background-color: black !important;
+    cursor: pointer;
+    height: 6rem;
+    font-size: 3rem;
+}
+
+
+
+section:first-child > div{
+    color: red;
+    font-weight: var(--fweight);
+    text-shadow: 0 0 8px deeppink;
+}
+
+section:nth-child(2) > div{
+    background-color: var(--primary);
+    color: aquamarine;
+    font-weight: var(--fweight);
+    text-shadow: 0 0 8px cyan;
+}
+
+section:nth-child(3) > div{
+    background-color: var(--primary);
+    color: rgb(189, 228, 15);
+    font-weight: var(--fweight);
+    text-shadow: 0 0 8px rgb(224, 132, 12);
+}
+
+
+section:last-of-type > div{
+    color: rgb(219, 3, 183);
+    font-weight: var(--fweight);
+    text-shadow: 0 0 8px rgb(183, 0, 255);
+}
+
+
+
+
+
+
+div:first-child{
+    font-family: var(--font);
+}

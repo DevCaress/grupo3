@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+
+section{
+    background-color: deeppink;
+    padding: 2rem;
+    /* display: flex; */
+    position: relative;
+}
+
+
+.card{
+    background-color: blueviolet;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+
+.card.div5{
+    background-color: black;
+}
+
+div::first-letter{
+    font-size: 2rem;    
+    color: #fff;
+}
+
+div::first-line{
+    background-color: rgb(228, 11, 163);
+}
+
+section::before{
+    content: url(../img/favicon.ico);
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    width: 100px;
+    background-color: blanchedalmond;
+    height: 100px;
+}
+
+section::after{
+    content: url(../img/favicon.ico);
+    position: absolute;
+    left: 500px;
+    top: 500px;
+    width: 100px;
+    background-color: blanchedalmond;
+    height: 100px;
+
+}
+
+section div::selection{
+    background-color: darkorange;
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+ul{
+    margin: 2rem;
+    font-size: 2rem;
+    display: flex;
+}
+
+li{
+    margin: 1rem;
+}
+
+li::marker{
+    content: url(../img/favicon.ico);
+}
+
+
+li::before{
+    content: '';
+    background-color: rgba(255, 20, 145, 0.39);
+    display: block;
+    width: 100%;
+    height: 1rem;
+    margin-bottom: -2.5rem;
+}
+
+/* div.div1{
+    background-color: aqua;
+    color: black;
+} */
+
+div:first-child{
+    background-color: aqua;
+    color: black;
+}
+
+div:last-child{
+    background-color: rgb(0, 255, 98);
+    color: black;
+}
+
+
+
+div:nth-child(3){
+    background-color: rgb(231, 217, 24);
+    color: black;
+}
+
+
+div:nth-child(1){
+    order: 4;
+}
+
+
+.uno div{
+    height: 16rem;
+    width: 250px;
+}
+
+.uno div:nth-child(1){
+    background-color: #40B2EE;
+}
+
+.uno div:nth-child(2){
+    background-color: #eeeb40;
+}
+
+.uno div:nth-child(3){
+    background-color: #a06521;
+}
+
+.uno div:nth-child(4){
+    background-color: #9b2455;
+}
+
+
+li:hover{
+    background-color: #9b2455;
+    cursor: pointer;
+    width: 500px;
+    color: #fff;
+    text-shadow: 0 0 11px black;
+}

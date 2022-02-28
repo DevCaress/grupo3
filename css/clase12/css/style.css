@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+main{
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin: 2rem 0 2rem;
+}
+.img{
+    margin-bottom: 5rem;
+}
+.img img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    animation: girar 2s ease 3s infinite alternate forwards paused;
+    /* animation-name: girar;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:forwards;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-iteration-count: infinite; */
+}
+
+.cuadro{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: blueviolet;
+    top: 5rem;
+    left: 12rem;
+    /* animation: color 2s ease alternate infinite;
+    -webkit-animation: color 2s ease alternate infinite; */
+}
+
+@keyframes girar {
+    from{
+        transform: rotate(0deg);
+        width: 0;
+        height: 0;
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes color {
+    0%{
+        background-color: orange;
+        transform: translate(50px,20px) ;
+        -webkit-transform: translate(50px,20px) ;
+        -moz-transform: translate(50px,20px) ;
+        -ms-transform: translate(50px,20px) ;
+        -o-transform: translate(50px,20px) ;
+}
+    80%{
+        background-color: deeppink;
+
+    }
+    100%{
+        background-color: blueviolet;
+
+    }
+}
